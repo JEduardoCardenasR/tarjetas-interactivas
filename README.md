@@ -50,10 +50,12 @@ Está configurado para usar Jasmine (aunque no se incluyen pruebas por defecto).
 npm test
 
 Se agrega vista de la página:
-![Tarjetas4](https://github.com/user-attachments/assets/6bfe119c-c293-4502-873a-ee05b31ea6b1)
-![Tarjetas3](https://github.com/user-attachments/assets/baf7748e-e328-4b2f-8852-4f26f80ddb97)
-![Tarjetas2](https://github.com/user-attachments/assets/538bf163-f9ac-4b29-a1e0-03a00b8f3556)
-![Tarjetas1](https://github.com/user-attachments/assets/362011a2-5100-4eaf-ab93-042db33d3970)
 ![Tarjetas](https://github.com/user-attachments/assets/81bf028d-bfea-4fb8-bf20-dca903bde42a)
+![Tarjetas1](https://github.com/user-attachments/assets/362011a2-5100-4eaf-ab93-042db33d3970)
+![Tarjetas2](https://github.com/user-attachments/assets/538bf163-f9ac-4b29-a1e0-03a00b8f3556)
+![Tarjetas3](https://github.com/user-attachments/assets/baf7748e-e328-4b2f-8852-4f26f80ddb97)
+![Tarjetas4](https://github.com/user-attachments/assets/6bfe119c-c293-4502-873a-ee05b31ea6b1)
+
+
 
 

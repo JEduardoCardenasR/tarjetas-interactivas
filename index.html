@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- Sección de título y subtítulo -->
+    <header>
+        <h1>Eduardo Cárdenas</h1>
+        <h2>Mi Página Web</h2>
+    </header>
+
+    <!-- Sección '¿Quién Soy?' -->
+    <section class="about-me">
+        <h3>¿Quién Soy?</h3>
+        <p>Soy una persona apasionada por el trabajo, el estudio y los viajes. He tenido la oportunidad de viajar a Canadá, lo que me permitió perfeccionar mi inglés. Además, he completado dos maestrías y he tocado en una banda de rock, lo que refleja mi amor por la música.</p>
+    </section>
+
+    <!-- Sección 'Mis Tecnologías Favoritas' -->
+    <section class="favorite-tech">
+        <h3>Mis Tecnologías Favoritas</h3>
+        <div class="tech-cards">
+            <div class="tech-card">
+                <h4>HTML</h4>
+                <img src="https://th.bing.com/th/id/R.793820ebaed719dd7592f877aada1603?rik=CMZtVZQRS60d5g&pid=ImgRaw&r=0" alt="HTML Logo">
+            </div>
+            <div class="tech-card">
+                <h4>CSS</h4>
+                <img src="https://logospng.org/download/css-3/logo-css-3-1536.png" alt="CSS Logo">
+            </div>
+            <div class="tech-card">
+                <h4>JavaScript</h4>
+                <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript Logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 'Mis Actividades Favoritas' -->
+    <section class="favorite-activities">
+        <h3>Mis Actividades Favoritas</h3>
+        <div class="input-group">
+            <input type="text" id="activity-name" placeholder="Nombre de la Actividad"> 
+            <textarea id="activity-description" placeholder="Descripción de la Actividad"></textarea>
+            <input type="text" id="image-link" placeholder="Link de la Imagen">
+        </div>
+        <button id="add-activity-button">Agregar Actividad</button>
+        <div id="activities-container" class="activities-container">
+            <p>Sin actividades por el momento</p>
+        </div>        
+    </section>    
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

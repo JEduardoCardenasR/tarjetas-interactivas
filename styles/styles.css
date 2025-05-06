@@ -1,0 +1,206 @@
+
+body {
+    background-color: #003366; 
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem; 
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem; 
+    color: #cccccc; 
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.about-me {
+    background-color: #336699; 
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 75%; 
+    margin-bottom: 30px; 
+}
+
+.about-me h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.favorite-tech {
+    background-color: #336699; 
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 75%; 
+    margin-bottom: 30px; 
+}
+
+.favorite-tech h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.favorite-tech .tech-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-tech .tech-card {
+    background-color: #003366;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 30%; 
+}
+
+.favorite-tech .tech-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.favorite-tech .tech-card img {
+    width: 100px; 
+    height: auto;
+}
+
+.favorite-activities {
+    background-color: #336699; 
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 75%; 
+}
+
+.favorite-activities h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input, .input-group textarea {
+    display: block;
+    width: calc(100% - 22px); 
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.input-group textarea {
+    height: 150px; 
+}
+
+button {
+    display: block;
+    width: 25%;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #004d99;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.activities-container {
+    background-color: #6872ff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.activities-container p {
+    font-size: 1rem;
+    color: #94fdfd;
+}
+
+.activity-card {
+    background-color: #003366; 
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 156.3px; 
+    height: 156.3px; 
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.activity-card img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    
+}
+
+.activity-card h4 {
+    max-width: 100%; 
+    font-size: 1rem; 
+}
+
+.activity-card p {
+    max-width: 100%; 
+    font-size: 0.8rem; 
+}
+
+.delete-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
